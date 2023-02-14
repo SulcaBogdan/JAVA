@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<translations>
+    <translation source="english" target="spanish">
+        <word source="butterfly">mariposa</word>
+        <word source="hello">hola</word>
+        <word source="goodbye">adios</word>
+    </translation>
+    <translation source="spanish" target="english">
+        <word source="mariposa">butterfly</word>
+        <word source="hola">hello</word>
+        <word source="adios">goodbye</word>
+    </translation>
+    <translation source="romanian" target="english">
+        <word source="fluture">butterfly</word>
+        <word source="salut">hello</word>
+        <word source="la revedere">goodbye</word>
+    </translation>
+    <translation source="romanian" target="english">
+        <word source="masa">table</word>
+        <word source="zapada">snow</word>
+        <word source="pisica">cat</word>
+    </translation>
+    <translation source="english" target="romanian">
+        <word source="butterfly">fluture</word>
+        <word source="hello">salut</word>
+        <word source="goodbye">la revedere</word>
+    </translation>
+    <translation source="english" target="romanian">
+        <word source="table">masa</word>
+        <word source="snow">zapada</word>
+        <word source="cat">pisica</word>
+    </translation>
+</translations>

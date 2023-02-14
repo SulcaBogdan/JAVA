@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<translations>
+    <translation source="english" target="spanish">
+        <word source="butterfly">mariposa</word>
+        <word source="hello">hola</word>
+        <word source="goodbye">adios</word>
+    </translation>
+    <translation source="spanish" target="english">
+        <word source="mariposa">butterfly</word>
+        <word source="hola">hello</word>
+        <word source="adios">goodbye</word>
+    </translation>
+</translations>

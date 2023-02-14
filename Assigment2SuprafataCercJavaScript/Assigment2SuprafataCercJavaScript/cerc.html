@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bogdan Sulca | Suprafata cerc</title>
+    <link rel="stylesheet" href="./assets/css/bogdan.css">
+
+    <script>
+
+        function calculeazaSuprafata() {
+            const raza = document.forms["formCerc"]["raza"].value;
+            if (raza <= 0 || raza == null || isNaN(raza)) {
+                document.getElementById("rezultat").innerHTML = "Nu se pot calcula valoari negative, valori care nu sunt cifre sau 0.";
+
+            } else {
+                var result = raza * raza * Math.PI;
+                document.getElementById("rezultat").innerHTML = (result + " cm");
+            }
+
+        }
+    </script>
+
+</head>
+
+<body>
+
+    <header>
+        <h1 id="navTitle"><a href="index.html"> Suprafata cerc</a>
+        </h1>
+    </header>
+    <div id="mainContainer">
+        <section class="mainSection">
+            <form name="formCerc">
+                <legend>
+                    <h1>Suprafata cerc</h1>
+                </legend>
+                <fieldset>
+                    <legend>Dimensiuni</legend>
+                    <label for="raza">Raza (cm)</label>
+                    <input name="raza" id="raza" type="text" class="feedback-input"
+                        placeholder="Completeaza raza cerc (cm)" />
+                </fieldset>
+                <button class="btn" type="button" onClick="calculeazaSuprafata();">CALCULEAZA</button>
+                <div class="rezultatDiv">
+                    <h2 id="rezultat"></h2>
+                    <p></p>
+                </div>
+            </form>
+
+        </section>
+    </div>
+    <footer>
+        <p>Tema Bogdan Sulca</p>
+        <p>14 decembrie 2022</p>
+        <a href="#">Instagram</a>
+        <a href="#">LinkedIn</a>
+    </footer>
+</body>
+
+</html>

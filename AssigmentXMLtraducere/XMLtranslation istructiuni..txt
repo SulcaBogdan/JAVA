@@ -1,0 +1,15 @@
+
+-Avem fisierul XML numit translations.xml unde puteti adauga alte cuvinte pentru a testa serviciul.
+
+-Avem o clasa TranslationController unde serviciul parseaza fisierul XML cu DOM parser.
+
+-Rulați aplicația Spring Boot.
+
+-Pentru a testa serviciul, utilizați un client HTTP cum ar fi un browser pentru a trimite o solicitare GET către punctul final /translate cu parametrii de interogare corespunzători. 
+	De exemplu: http://localhost:8080/translate?word={cuvantul}&source={limba sursa}&target={limba tinta} -> http://localhost:8080/translate?word=butterfly&source=english&target=spanish
+
+-Aceasta va trimite o solicitare către punctul final /translate cu cuvântul „butterfly”, limba sursă „engleză” și limba țintă „spaniolă”, iar serviciul va returna traducerea „butterfly” din engleză în spaniolă: „mariposa”.
+
+-Puteți testa serviciul cu diferite cuvinte, limbi sursă și limbi țintă prin modificarea parametrilor de interogare din cerere. 
+
+

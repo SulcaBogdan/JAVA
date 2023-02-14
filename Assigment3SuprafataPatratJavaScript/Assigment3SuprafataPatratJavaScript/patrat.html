@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bogdan Sulca | Suprafata patrat</title>
+    <link rel="stylesheet" href="./assets/css/bogdan.css">
+
+    <script>
+
+        function calculeazaSuprafata() {
+            const lungimeLatura = document.forms["formPatrat"]["lungime"].value;
+            if (lungimeLatura <= 0 || lungimeLatura == null) {
+                document.getElementById("rezultat").innerHTML = "Nu se pot calcula valoarea negative, valori care nu sunt cifre sau 0.";
+
+            } else {
+                var result = lungimeLatura * lungimeLatura;
+                document.getElementById("rezultat").innerHTML = (result + " cm");
+            }
+
+
+
+        }
+    </script>
+
+</head>
+
+<body>
+
+    <header>
+        <h1 id="navTitle"><a href="index.html"> Suprafata patrat</a>
+        </h1>
+    </header>
+    <div id="mainContainer">
+        <section class="mainSection">
+            <form name="formPatrat">
+                <legend>
+                    <h1>Suprafata patrat</h1>
+                </legend>
+                <fieldset>
+                    <legend>Dimensiuni</legend>
+                    <label for="lungime">Lungime (cm)</label>
+                    <input name="lungime" id="lungime" type="number" min="1" class="feedback-input"
+                        placeholder="Lungime patrat" required />
+                    <!-- <label for="latime">Latime (cm)</label>
+                    <input name="latime" id="latime" type="number" min="1" class="feedback-input"
+                        placeholder="latime patrat" /> -->
+                </fieldset>
+                <button class="btn" type="button" onClick="calculeazaSuprafata();">CALCULEAZA</button>
+                <div class="rezultatDiv">
+                    <h1>Rezultat</h1>
+                    <p id="rezultat"></p>
+                </div>
+            </form>
+
+        </section>
+    </div>
+    <footer>
+        <p>Tema Bogdan Sulca</p>
+        <p>14 decembrie 2022</p>
+        <a href="#">Instagram</a>
+        <a href="#">LinkedIn</a>
+    </footer>
+</body>
+
+</html>

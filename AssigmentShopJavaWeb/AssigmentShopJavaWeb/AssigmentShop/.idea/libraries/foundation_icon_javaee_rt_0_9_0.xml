@@ -1,0 +1,19 @@
+<component name="libraryTable">
+  <library name="foundation.icon:javaee-rt:0.9.0" type="repository">
+    <properties maven-id="foundation.icon:javaee-rt:0.9.0" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/javaee-rt-0.9.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/javaee-api-0.9.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/bcprov-jdk15on-1.60.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/msgpack-core-0.8.17.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/slf4j-api-1.7.26.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/asm-7.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/asm-commons-7.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/asm-analysis-7.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/asm-tree-7.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/asm-util-7.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
